@@ -1,7 +1,10 @@
 plugins {
     id 'java'
+    id 'application'
 }
-
+application {
+    mainClass.set("TicTacToe")
+}
 group 'com.eu.TicTacToe'
 version '1.0-SNAPSHOT'
 
